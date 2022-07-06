@@ -1,0 +1,142 @@
+
+.firstsection{
+    display: flex;
+    flex-wrap: nowrap;
+justify-content: space-between;
+padding-left: 200px;
+padding-right: 200px;
+}
+
+img{
+height: 200px;
+width: 200px;
+justify-content: center;
+align-items: center;
+}
+.biggerimg{
+    height: 250px;
+    width: 550px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.headerlogo{
+    display: flex;
+    background-color:#1f2937;
+    font-size: 24px;
+    align-items: center;
+    color: #F9FAF8;
+    padding-bottom: 100px;
+}
+.links{
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 100px;
+
+}
+ul{
+   display: flex;
+   list-style: none; 
+   gap: 15px;
+   background-color:#1f2937;
+}
+.content{
+display: flex;
+padding-top: 0px;
+padding-bottom: 20px;
+margin-bottom: 70px;
+}
+.left{
+    display: flex;
+    background-color:#1f2937;
+    color: #F9FAF8;
+   
+}
+h2{
+    font-size: 48px;
+
+}
+.right{
+    display: flex;
+    background-color:#1f2937;
+}
+.left, .right{
+    flex: 1;
+    padding-left: 200px;;
+    padding-right: 200px;
+    flex-wrap: wrap;
+}
+.secondsection{
+display: flex;
+flex-direction: column;  
+background-color: white;  
+margin-bottom: 60px;
+}
+.secondheader{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+.secondcontent{
+display: flex;  
+justify-content: center;  
+gap: 20px;
+color: #E5E7EB;
+}
+.card{
+    background-color: teal;
+    border: solid blue 15px;
+   border-radius: 20px;
+}
+
+.thirdcontent{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.fourthcontent{
+    background-color: #3882f6;
+    padding: 60px 120px;
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-size: 24px;
+    gap: 20px;
+    flex-direction: column;
+    font-size: 24px;
+    color: #E5E7EB;
+    border-radius: 20px;
+
+}
+.fourthfooter{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.firstsection, .fourthfooter{
+    background-color:#1f2937 ;
+}
+
+.boton{
+  display: flex;
+}
